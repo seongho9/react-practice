@@ -1,20 +1,17 @@
-import Counter from './Counter.js';
-import MyComponent from './MyComponent';
-import Say from './Say.js';
+import ValidationSample from './ch5/ValidationSample.jsx';
+import RefSample from './ch5/createRef.jsx';
+import { Component } from 'react';
 
-const App = () => {
-  return (
-    <div>
-      <MyComponent name="string" number={3} >
-        <button type='button'>hi</button>
-      </MyComponent>
-
-      <Counter />
-      <br />
-      <Say />
-    </div>
-
-  );
-};
+class App extends Component{
+  render()
+  {
+    return (
+      <div>
+        <ValidationSample />
+        <RefSample />
+      </div>
+    );
+  }
+}
 
 export default App;
