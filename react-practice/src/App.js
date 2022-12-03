@@ -1,5 +1,4 @@
-import ValidationSample from './ch5/ValidationSample.jsx';
-import RefSample from './ch5/createRef.jsx';
+import IterationSample from './ch6/IterationSample';
 import { Component } from 'react';
 
 class App extends Component{
@@ -7,8 +6,7 @@ class App extends Component{
   {
     return (
       <div>
-        <ValidationSample />
-        <RefSample />
+        <IterationSample />
       </div>
     );
   }
